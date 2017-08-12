@@ -45,6 +45,8 @@ class VisitorView: UIView {
         anim.isRemovedOnCompletion = false
         
        rotationView.layer.add(anim, forKey: "rotation")
+        
+    
     }
     
 }

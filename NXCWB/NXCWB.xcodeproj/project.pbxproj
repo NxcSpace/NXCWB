@@ -16,6 +16,9 @@
 		E74524C81F3CA2EE009AC2D3 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74524C71F3CA2EE009AC2D3 /* BaseViewController.swift */; };
 		E74524CA1F3CA5D0009AC2D3 /* VisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74524C91F3CA5D0009AC2D3 /* VisitorView.swift */; };
 		E74524CC1F3CA6B6009AC2D3 /* VisitorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E74524CB1F3CA6B6009AC2D3 /* VisitorView.xib */; };
+		E74524EC1F3F3857009AC2D3 /* UIBarButton-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74524EB1F3F3857009AC2D3 /* UIBarButton-Extension.swift */; };
+		E74524EE1F3F4C16009AC2D3 /* HomeTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74524ED1F3F4C16009AC2D3 /* HomeTitleView.swift */; };
+		E74524F01F3F4C3F009AC2D3 /* HomeTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E74524EF1F3F4C3F009AC2D3 /* HomeTitleView.xib */; };
 		E78B06131F316EF100DA42C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78B06121F316EF100DA42C4 /* AppDelegate.swift */; };
 		E78B06151F316EF100DA42C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78B06141F316EF100DA42C4 /* ViewController.swift */; };
 		E78B06181F316EF100DA42C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78B06161F316EF100DA42C4 /* Main.storyboard */; };
@@ -33,6 +36,9 @@
 		E74524C71F3CA2EE009AC2D3 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		E74524C91F3CA5D0009AC2D3 /* VisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitorView.swift; sourceTree = "<group>"; };
 		E74524CB1F3CA6B6009AC2D3 /* VisitorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VisitorView.xib; sourceTree = "<group>"; };
+		E74524EB1F3F3857009AC2D3 /* UIBarButton-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButton-Extension.swift"; sourceTree = "<group>"; };
+		E74524ED1F3F4C16009AC2D3 /* HomeTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTitleView.swift; sourceTree = "<group>"; };
+		E74524EF1F3F4C3F009AC2D3 /* HomeTitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTitleView.xib; sourceTree = "<group>"; };
 		E78B060F1F316EF100DA42C4 /* NXCWB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NXCWB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E78B06121F316EF100DA42C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E78B06141F316EF100DA42C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +71,8 @@
 			isa = PBXGroup;
 			children = (
 				E74524B41F3B066B009AC2D3 /* HomeViewController.swift */,
+				E74524ED1F3F4C16009AC2D3 /* HomeTitleView.swift */,
+				E74524EF1F3F4C3F009AC2D3 /* HomeTitleView.xib */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -108,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				E74524C51F3C9338009AC2D3 /* UIButton-Extension.swift */,
+				E74524EB1F3F3857009AC2D3 /* UIBarButton-Extension.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -215,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E74524CC1F3CA6B6009AC2D3 /* VisitorView.xib in Resources */,
+				E74524F01F3F4C3F009AC2D3 /* HomeTitleView.xib in Resources */,
 				E78B061D1F316EF100DA42C4 /* LaunchScreen.storyboard in Resources */,
 				E78B061A1F316EF100DA42C4 /* Assets.xcassets in Resources */,
 				E78B06181F316EF100DA42C4 /* Main.storyboard in Resources */,
@@ -235,6 +245,8 @@
 				E74524BF1F3B066B009AC2D3 /* ProfileViewController.swift in Sources */,
 				E74524C81F3CA2EE009AC2D3 /* BaseViewController.swift in Sources */,
 				E74524BE1F3B066B009AC2D3 /* MessageViewController.swift in Sources */,
+				E74524EC1F3F3857009AC2D3 /* UIBarButton-Extension.swift in Sources */,
+				E74524EE1F3F4C16009AC2D3 /* HomeTitleView.swift in Sources */,
 				E74524CA1F3CA5D0009AC2D3 /* VisitorView.swift in Sources */,
 				E74524BD1F3B066B009AC2D3 /* MainViewController.swift in Sources */,
 				E74524C61F3C9338009AC2D3 /* UIButton-Extension.swift in Sources */,
